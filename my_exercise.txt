@@ -1,6 +1,0 @@
-generated the ssh key
-congigured git in local device
-cloned the repo 'projects' to the local device
-add and commited the files script1.sh,script2.sh,script3.sh,find.sh,sum.sh to the repo
-pushed the files to server
-exercised the use of comands
