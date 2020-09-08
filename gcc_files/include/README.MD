@@ -1,1 +1,1 @@
-#macro defintions necessary for cross compilation
+#macro defintions necessary for compilation
