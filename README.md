@@ -1,2 +1,0 @@
-# projects
-ign demo pgms
