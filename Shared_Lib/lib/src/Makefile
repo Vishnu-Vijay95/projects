@@ -1,10 +1,10 @@
 include include/Makefile
 
-all : arithmetic.o bitwise.o
-	ar rv $(LIBBIN)/libarithmetic.a $(LIBSRCA)/arithmetic.o &&	\
-	ar rv $(LIBBIN)/libbitwise.a $(LIBSRCB)/bitwise.o
+#all : arithmetic.o bitwise.o
+#	ar rv $(LIBBIN)/libarithmetic.a $(LIBSRCA)/arithmetic.o &&	\
+#	ar rv $(LIBBIN)/libbitwise.a $(LIBSRCB)/bitwise.o
 
-lib : arithmetic.o bitwise.o
+all : arithmetic.o bitwise.o
 	gcc -shared $(LIBSRCA)/arithmetic.o -o $(LIBBIN)/libarithmetic.so  &&	\
 	gcc -shared $(LIBSRCB)/bitwise.o -o $(LIBBIN)/libbitwise.so 
 
